@@ -1,8 +1,7 @@
 import { useEffect, useState } from "react";
 import "./App.css";
 
-const API_URL = "http://localhost:5000";
-
+const API = "https://campusfix-backend-4kzw.onrender.com";
 function App() {
   const [page, setPage] = useState("home");
 
